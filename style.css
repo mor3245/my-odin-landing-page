@@ -1,0 +1,184 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  font-family: Roboto, serif;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 30em;
+    background: #1f2937;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 3em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h1, h2, p, nav ul, figure {
+    padding: 0;
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px 30em;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 5em 30em;
+    gap: 2em;
+}
+
+.hero h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 7px 43px;
+    border: 0;
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.hero-right {
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    flex: 1;
+}
+
+.information {
+    padding: 2em 30em;
+}
+
+.information h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-content figure {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.info-content img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 80px 35em;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote-person {
+    text-align: right;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.signup {
+    padding: 80px 30em;
+}
+
+.signup-wrapper {
+    background-color:#3882F6;
+    border-radius: 5px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup-wrapper h2 {
+    color: #F9FAF8;
+}
+
+.signup-wrapper p {
+    color: #E5E7EB;
+}
+
+.signup-left {
+    flex: 1;
+    margin: auto;
+}
+
+.signup-right {
+    padding-right: 50px;
+}
+
+.signup-right button {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #3882F6;
+  padding: 10px 40px;
+  color: white;
+  font-weight: bold;
+}
+
